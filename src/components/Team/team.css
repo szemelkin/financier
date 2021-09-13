@@ -1,0 +1,150 @@
+.team {
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh;
+    min-width: 65vw;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.team__main-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44.8372px;
+    line-height: 53px;
+    color: #FFFFFF;
+
+    padding-bottom: 2vw;
+
+    text-align: center;
+}
+
+.team__block {
+    display: flex;
+    flex-direction: row;
+}
+
+.team__pic {
+    width: 30%;    
+    padding-left: 4vw;
+    padding-right: 4vw;
+
+    margin: 0 0 0 0;
+    object-fit: cover;
+    
+}
+
+.team__description {
+    padding-top: 100px;
+}
+
+.team__text {
+    width: 70%;
+    padding-left: 4vw;
+    padding-right: 4vw;
+
+    margin: 0 0 0 0;
+
+    margin-right: 0px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;    
+    color: #BEBEBE;
+
+    text-align: left;
+
+    
+}
+
+.team__pic-usa {
+    width: 100%;
+    height: 180px;
+
+    border: 2px solid #05073F;
+
+    margin-top: 15vh;
+}
+
+@media (max-width: 700px) {
+
+    .team__main-title{
+        font-size: 34px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .team__pic {
+        width: 50%; 
+        /* width: 160px; */
+        align-self: center;
+        object-fit: cover;
+    }
+
+    .team__pic-usa {
+        width: 0px;
+        height: unset;
+
+        border: unset;
+    
+        margin-top: unset;
+    }
+
+    .team__block {
+        display: flex;
+        flex-direction: column;
+   
+    }
+
+    .team__text {
+        padding-top: 30px;
+        width:unset;
+
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .team__description {
+        padding-top: 50px;
+    }
+}
+
+
+@media (max-width: 380px) {
+
+    .team {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .team__main-title{
+        font-size: 25px;
+        line-height: 29px;
+        text-align: center;
+    }
+
+
+    .team__pic {
+        width: 70%; 
+        /* width: 160px; */
+        align-self: center;
+        object-fit: cover;
+    }
+
+    .team__text {
+        padding-top: 30px;
+        width:unset;
+
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .team__description {
+        padding-top: 20px;
+    }
+}

@@ -1,0 +1,135 @@
+.project-window {
+    display: flex;
+    flex-direction: column;   
+    width: 50vw;
+    background: #FFFFFF;
+    border-radius: 24px 24px 24px 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.project-window__title {
+    display: flex;
+    flex-direction: row;
+    
+    background: #FFFFFF;
+    border-radius: 24px 24px 24px 24px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.project-window__title__button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42.7904px;
+    line-height: 52px;
+    
+    color: #11007C;
+    background: transparent;
+
+    
+    padding-right: 20px;
+    align-self: center;
+}
+
+.project-window__title__button:hover {
+    color: #69c0f1;
+
+} 
+
+
+.project-window__title__text {    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #11007C;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-self: center;
+
+    text-align: inherit;
+    
+}
+
+.project-window__description {
+    /* width: 40vw; */
+    background: #EBEBEB;;
+    border-radius: 0px 0px 24px 24px ;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    /* text-align: justify; */
+    text-align: inherit;
+
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    display: block;
+}
+
+.project-window__description_hide {
+    display: none;
+}
+
+@media (max-width: 710px) {
+
+    .project-window__title {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .project-window__title__button {
+        padding-left: 10px;
+        padding-right: 10px;
+
+        font-size: 34px;
+        line-height: 40px;
+
+    }
+
+    .project-window__title__text { 
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .project-window__description {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 540px) {
+    .project-window {
+ 
+        width: 80vw;
+        margin-bottom: 0px;
+        margin-top: 15px;
+
+    }
+}
+
+@media (max-width: 540px) {
+    .project-window__title {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

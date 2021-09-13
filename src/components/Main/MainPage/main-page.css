@@ -1,0 +1,105 @@
+.about-project {
+    /* margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px; */
+    /* max-height: 74px; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    /* border-bottom: 1px solid #545454; */
+    /* opacity: 1; */
+}
+
+.main-title {
+    /* Исследования финансовой индустрии */
+
+    /* font-family: 'Roboto'; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 53px;
+
+    color: #FFFFFF;
+
+    max-width: 520px;
+    /* height: 15vh; */
+    /* max-height: 106px; */
+
+    padding-top: 165px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+
+}
+
+.description {
+
+    /* font-family: 'Roboto'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 1.3;
+    
+    color: #FFFFFF;
+
+    padding-top: 48px;
+    max-width: 550px;
+    /* max-height: 60px; */
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.button-order {
+    background: #1B00C2;
+    border-radius: 6.14255px;
+    max-width: 230px;
+    max-height: 70px;
+
+    display: flex;
+    flex-direction: row;
+
+    
+    margin-top: 110px;
+}
+
+.button-order__text {
+    /* font-family: "Gilroy"; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;    
+    color: #FFFFFF;
+    align-self: center;
+    padding-left: 50px;
+    
+}
+
+.button-order__arrow {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.8847px;
+    line-height: 26px;    
+    color: #FFFFFF;
+
+    padding-left: 10px;
+    
+    align-self: center;
+
+}
+
+@media (max-width: 530px) {
+    .main-title {
+        padding-top: 10vh;
+        font-size: 35px;
+        line-height: 1.2;
+        }
+
+    .description {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+}

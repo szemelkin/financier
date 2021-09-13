@@ -1,0 +1,209 @@
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 1;
+    height: 15vh;
+
+    align-items: center;
+
+    /* padding-top: 30px; */
+
+    z-index: 0;
+}
+
+.header-experience {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 1;
+    height: 15vh;
+
+    align-items: center;
+    display: flex;
+    background-color: #05073F;
+    z-index: 0;
+
+}
+
+.menu {
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+}
+
+.logo-block {
+    z-index: 6;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 160px;
+    
+
+    /* margin-left: 15vw;
+    margin-top: 5vh; */
+}
+
+.link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    padding-left: 4vw;
+
+    padding-right: 0px;
+}
+
+.call-button {
+    max-width: 253px;
+    width: 40vw;
+    max-height: 55px;
+    height: 10vh;
+    background: #1B00C2;
+    border-radius: 64px;
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    justify-content: center;
+
+    margin-left: 4vw;
+}
+
+.phone-tube {
+    width: 3vw;
+    height: 3vw;
+    align-self: center;
+    max-width: 21px;
+
+}
+
+.phone-number {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.0937px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin: 0 0 0 0;
+    align-self: center;
+    padding-left: 10px;
+
+
+
+}
+
+
+
+@media (max-width: 710px) {
+
+    .header {
+        z-index: 30;
+
+    }
+    
+    .header-experience {
+        z-index: 30;
+    }
+    
+    .menu {
+    }
+    
+    .logo {
+
+    }
+    
+    .link {
+        font-size: 16px;
+        padding-left: 0px;
+    }
+    
+    .call-button {
+        width: 40vw;
+    }
+    
+    .phone-tube {    
+    }
+    
+    .phone-number { 
+        font-size: 16px;     
+    }
+  }
+
+
+  @media (max-width: 540px) {
+
+    .header {
+        flex-direction: column;
+        height: 30vh;
+    }
+
+    .logo {
+        padding-top: 4vw;
+    }
+
+    .logo-block {
+        margin-left: 0px;
+        margin-top: 0px;
+
+    }
+
+    .menu {
+        flex-direction: column;
+        padding-top: 2vw;
+    }
+
+    .link {
+        padding-top: 2vw;
+    }
+
+    .call-button {
+        margin-top: 3vw;
+        height: 5vh;
+        width: 40vw;
+        margin-left: 4vw;
+    }
+
+    .phone-tube {   
+        min-width: 15px; 
+        min-height: 15px;
+    }
+
+    .phone-number { 
+        padding-left: 5px;     
+    }
+
+
+}
+
+@media (max-width: 370px) {
+
+    .call-button {
+        width: 52vw
+    }
+}
+
+@media (max-width: 350px) {
+
+    .call-button {
+        width: 50vw
+    }
+}

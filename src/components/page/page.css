@@ -1,0 +1,99 @@
+
+.page {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  min-height: 100vh;
+
+  font-family: 'Inter', 'Arial', 'Helvetica', 'Roboto', sans-serif;
+  background-color:  #202020;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+
+  margin: 0 0 0 0;
+
+  background-image: url(../../images/financier_bckgrnd_img.png);
+  background-position-x: center;
+
+  /* background: rgba(31, 0, 220, 0.25); */
+  /* backdrop-filter: blur(21px);    
+  opacity: 0.5; */
+
+  padding-left: 5vw;
+  padding-right: 5vw;
+
+}
+
+
+
+.page__experience {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  min-height: 100vh;
+
+  font-family: 'Inter', 'Arial', 'Helvetica', 'Roboto', sans-serif;
+  background-color:  #202020;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+
+  margin: 0 0 0 0;
+
+  background-image: url(../../images/financier_bckgrnd_img_2.png);
+  background-position-x: center;
+
+  /* padding-left: 5vw; */
+  /* padding-right: 5vw; */
+}
+
+
+.page__team {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  
+    min-height: 100vh;
+  
+    font-family: 'Inter', 'Arial', 'Helvetica', 'Roboto', sans-serif;
+    background-color:  #05073F;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  
+    margin: 0 0 0 0;
+    background-position-x: center;
+
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+@media (max-width: 768px) {
+
+  .page {
+  }
+
+  .page__experience {
+  }
+
+  .page__team {
+  }
+}
+
+@media (max-width: 540px) {
+    .page__experience {
+        padding-right: 0vw;
+    }
+}
